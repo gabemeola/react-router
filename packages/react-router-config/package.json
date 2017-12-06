@@ -1,11 +1,12 @@
 {
-  "name": "react-router-config",
+  "name": "react-router-static-config",
   "version": "1.0.0-beta.4",
   "description": "Static route config matching for React Router",
   "repository": "ReactTraining/react-router",
   "license": "MIT",
   "authors": [
-    "Ryan Florence"
+    "Ryan Florence",
+    "Gabe Meola"
   ],
   "files": [
     "es",
