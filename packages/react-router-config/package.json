@@ -1,6 +1,6 @@
 {
   "name": "react-router-static-config",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-beta.6",
   "description": "Static route config matching for React Router",
   "repository": "ReactTraining/react-router",
   "license": "MIT",

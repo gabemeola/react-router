@@ -21,8 +21,8 @@ const renderRoutes = (routes, extraProps = {}, switchProps = {}) => routes ? (
         : (
           <Redirect
             key={route.key || i}
-            push={route.redirect.push || false}
-            from={route.path || null}
+            push={route.redirect.push}
+            from={route.redirect.from || route.path}
             to={route.redirect.to}
             exact={route.exact}
             strict={route.strict}
